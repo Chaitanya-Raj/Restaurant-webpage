@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  color: antiquewhite;
+  font-family: "Caveat", cursive;
+}
+
+#header {
+  background-color: #222;
+  padding: 0.1em;
+  font-size: 1.7em;
+  border-bottom: solid 5px antiquewhite;
+}
+
+#content {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+}
+
+h1 {
+  padding-left: 1em;
+  margin: 0.3em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top: 1.5vh;
+  left: 70vw;
+  cursor: pointer;
+}
+
+li {
+  padding-left: 2em;
+}
+
+img {
+  width: 100px;
+  padding: 20px;
+  margin: 10px;
+  background-color: antiquewhite;
+  border-radius: 25%;
+}
